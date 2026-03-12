@@ -1262,7 +1262,7 @@
   {
     "id": "ID-GUARD-RF-002",
     "title": "RF Shielding & Policy Checklist for homes/workplaces",
-    "status": "Backlog",
+    "status": "Active",
     "blocked": false,
     "type": "integration",
     "source": "Howler Guard",
@@ -1308,47 +1308,5 @@
     "source": "Petey Autonomy",
     "priority": "Medium",
     "execution_mode": "session"
-  },
-  {
-    "id": "SCHIZO-001",
-    "title": "Schizotheia channel spec v0.1",
-    "status": "Backlog",
-    "blocked": false,
-    "type": "design",
-    "source": "Content",
-    "priority": "High",
-    "execution_mode": "session",
-    "tags": [
-      "private_schizo"
-    ],
-    "private": true
-  },
-  {
-    "id": "SCHIZO-002",
-    "title": "Schizo grid canon – theopolitical 2x2 factions",
-    "status": "Backlog",
-    "blocked": false,
-    "type": "design",
-    "source": "Content",
-    "priority": "Medium",
-    "execution_mode": "session",
-    "tags": [
-      "private_schizo"
-    ],
-    "private": true
-  },
-  {
-    "id": "SCHIZO-003",
-    "title": "Schizotheia Episode Map v0.1",
-    "status": "Backlog",
-    "blocked": false,
-    "type": "design",
-    "source": "Content",
-    "priority": "Medium",
-    "execution_mode": "session",
-    "tags": [
-      "private_schizo"
-    ],
-    "private": true
   }
 ]
