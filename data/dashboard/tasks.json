@@ -1235,6 +1235,120 @@
     "parent": "JV2-036",
     "execution_mode": "worker",
     "notes": "Extend petey-backlog-worker / active-handlers-worker to detect when there are zero Active tasks and automatically promote the next highest-priority, unblocked Backlog task (per project rules) into Active, respecting autonomy + safety constraints.",
-    "activeHandlersLastTouched": "2026-03-12T16:59:02-05:00"
+    "activeHandlersLastTouched": "2026-03-12T17:36:49-05:00"
+  },
+  {
+    "id": "WEB-027-01",
+    "title": "WEB-027 slice 1: publish-dashboard-snapshot.sh helper in clean deploy repo",
+    "status": "Active",
+    "blocked": false,
+    "type": "integration",
+    "source": "HowlerAI Web",
+    "priority": "Medium",
+    "parent": "WEB-027",
+    "execution_mode": "worker",
+    "notes": "In /Users/admin/projects/ctrltower.web.app (clean deploy clone), add scripts/publish-dashboard-snapshot.sh that pulls origin/main, copies ~/.openclaw/workspace/dashboard/*.json into data/dashboard/*.json, commits, and pushes to origin/main. This script becomes the single approved path for publishing OS dashboard snapshots to public /ctrltower, and can later be invoked by a worker/subagent with explicit human approval."
+  },
+  {
+    "id": "ID-GUARD-RF-001",
+    "title": "RF Exposure Assessment – map WiFi/5G identity surface",
+    "status": "Active",
+    "blocked": false,
+    "type": "design",
+    "source": "Howler Guard",
+    "priority": "Medium",
+    "execution_mode": "worker"
+  },
+  {
+    "id": "ID-GUARD-RF-002",
+    "title": "RF Shielding & Policy Checklist for homes/workplaces",
+    "status": "Backlog",
+    "blocked": false,
+    "type": "integration",
+    "source": "Howler Guard",
+    "priority": "Medium",
+    "execution_mode": "worker"
+  },
+  {
+    "id": "ID-GUARD-RF-010",
+    "title": "Spec RF identity feed aggregation (future lane)",
+    "status": "Backlog",
+    "blocked": false,
+    "type": "design",
+    "source": "Howler Guard",
+    "priority": "Low",
+    "execution_mode": "worker"
+  },
+  {
+    "id": "ID-GUARD-MEME-001",
+    "title": "Meme / Image Provenance Engine v0.1",
+    "status": "Backlog",
+    "blocked": false,
+    "type": "design",
+    "source": "Howler Guard",
+    "priority": "High",
+    "execution_mode": "session"
+  },
+  {
+    "id": "ID-GUARD-MEME-010",
+    "title": "Meme Artist Network & Provenance Gallery v0.1",
+    "status": "Backlog",
+    "blocked": false,
+    "type": "design",
+    "source": "Howler Guard",
+    "priority": "Medium",
+    "execution_mode": "session"
+  },
+  {
+    "id": "AUTO-CONTENT-SUPERCUTS-001",
+    "title": "Agentic Supercut Engine v0.1 (niche channels)",
+    "status": "Backlog",
+    "blocked": false,
+    "type": "design",
+    "source": "Petey Autonomy",
+    "priority": "Medium",
+    "execution_mode": "session"
+  },
+  {
+    "id": "SCHIZO-001",
+    "title": "Schizotheia channel spec v0.1",
+    "status": "Backlog",
+    "blocked": false,
+    "type": "design",
+    "source": "Content",
+    "priority": "High",
+    "execution_mode": "session",
+    "tags": [
+      "private_schizo"
+    ],
+    "private": true
+  },
+  {
+    "id": "SCHIZO-002",
+    "title": "Schizo grid canon – theopolitical 2x2 factions",
+    "status": "Backlog",
+    "blocked": false,
+    "type": "design",
+    "source": "Content",
+    "priority": "Medium",
+    "execution_mode": "session",
+    "tags": [
+      "private_schizo"
+    ],
+    "private": true
+  },
+  {
+    "id": "SCHIZO-003",
+    "title": "Schizotheia Episode Map v0.1",
+    "status": "Backlog",
+    "blocked": false,
+    "type": "design",
+    "source": "Content",
+    "priority": "Medium",
+    "execution_mode": "session",
+    "tags": [
+      "private_schizo"
+    ],
+    "private": true
   }
 ]
