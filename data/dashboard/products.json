@@ -1,0 +1,103 @@
+[
+  {
+    "name": "AI Prompt Pack",
+    "key": "ai-prompt-pack",
+    "status": "live",
+    "platforms": ["Gumroad"],
+    "url": "https://howler4388.gumroad.com/l/ai-prompt-pack",
+    "price": 9,
+    "currency": "USD",
+    "role": "Low-ticket, broad-appeal starter product and proof of shipping.",
+    "next_actions": [
+      "Draft 2 value-first promo snippets that give away 5–10 prompts each and link to the pack.",
+      "Reference it as a work sample in relevant Upwork proposals."
+    ]
+  },
+  {
+    "name": "Freelancer Command Center (Notion)",
+    "key": "freelancer-command-center",
+    "status": "live",
+    "platforms": ["Notion", "Gumroad"],
+    "url": "https://befitting-son-2e4.notion.site/Freelancer-Command-Center-3119cdba34e081189139f2577b24e660",
+    "price": 14,
+    "currency": "USD",
+    "role": "Systemized freelancing OS; doubles as a work sample for ops/Notion/automation.",
+    "next_actions": [
+      "Publish a clean work-sample page under our infra and link it from Upwork portfolio.",
+      "Confirm Gumroad listing has screenshots, clear 'who it’s for', and a short setup guide."
+    ]
+  },
+  {
+    "name": "Real Estate Ops Copilot (Notion)",
+    "key": "real-estate-ops-copilot",
+    "status": "live",
+    "platforms": ["Notion", "Gumroad"],
+    "url": "https://howler4388.gumroad.com/l/rtwjsz",
+    "price": 14.88,
+    "currency": "USD",
+    "role": "Vertical-specific ops copilot template for real estate operations.",
+    "next_actions": [
+      "Make sure it appears in the Ops Copilot product line on the dashboard.",
+      "Align Gumroad description tone/branding with HowlerAI."
+    ]
+  },
+  {
+    "name": "HowlerAI Retainer Tracker (App)",
+    "key": "howlerai-retainer-tracker",
+    "status": "prototype",
+    "platforms": ["React Native/Expo", "apps.howler-ai.com (future)", "Gumroad"],
+    "url": null,
+    "price": 8.88,
+    "currency": "USD",
+    "role": "Flagship ops brain for agencies/consultants to track retainers and see effective hourly rates.",
+    "next_actions": [
+      "Write v1 promise and finalize Gumroad listing copy.",
+      "Capture 3–5 key screenshots from the running prototype.",
+      "Document setup instructions for running the app locally."
+    ]
+  },
+  {
+    "name": "Agency Ops Copilot Starter Kit",
+    "key": "agency-ops-copilot",
+    "status": "drafting",
+    "platforms": ["apps.howler-ai.com (future)", "Gumroad"],
+    "url": null,
+    "price": null,
+    "currency": "USD",
+    "role": "Higher-ticket ops system for agencies: onboarding, comms, weekly status, approvals.",
+    "next_actions": [
+      "Define core objects: Clients, Projects, Deliverables, Meetings, Approvals, Weekly Review.",
+      "Choose a minimal v1 scope and initial price band above Freelancer Command Center."
+    ]
+  },
+  {
+    "name": "24/7 Jarvis + OpenCode + Sweetey Loop Template",
+    "key": "24-7-loop-template",
+    "status": "draft",
+    "platforms": ["Gumroad", "Internal docs"],
+    "url": null,
+    "price": null,
+    "currency": "USD",
+    "role": "Template for turning a Jarvis-style OS into a safe, always-on 24/7 loop with backlog workers, project workers, QA, and human touchpoints.",
+    "next_actions": [
+      "Decide on public price point and connect listing.md to a real Gumroad product.",
+      "Optionally add this template as an add-on or bundle with other Howler OS products."
+    ]
+  },
+  {
+    "name": "Blink.new Portfolio Engine",
+    "key": "blink-portfolio",
+    "status": "planning",
+    "platforms": ["Blink.new", "HowlerAI Web", "Upwork"],
+    "url": null,
+    "price": null,
+    "currency": "USD",
+    "role": "Service + portfolio engine: turn Figma designs into production-ready, Blink.new-powered sites in ~30 seconds and package them as client-facing work.",
+    "next_actions": [
+      "Test Blink.new with a simple Figma → site flow and note constraints.",
+      "Design the internal 'Figma → Blink.new → Live' service spec (scope, turnaround, pricing tiers).",
+      "Build 3–5 demo sites across different niches and host them under howler-owned domains.",
+      "Create an Upwork offer + standalone landing page for the Blink.new-powered service."
+    ]
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "HT-JV2-036-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "JV2-036",
+    "project": "JV2",
+    "title": "Agent session needed for JV2-036: Ensure dashboard Active column reflects what PBW is actually working on (Active state hygiene).",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-07T01:01:40Z",
+    "updated_at": "2026-03-11T23:42:35Z"
+  },
+  {
+    "id": "HT-JV2-036-03-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "JV2-036-03",
+    "project": "JV2",
+    "title": "Agent session needed for JV2-036-03: JV2-036 slice 3: ensure workers demote tasks from Active when finished (Done or back to Backlog) and keep at least one Active per major project when possible.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-07T01:01:42Z",
+    "updated_at": "2026-03-11T02:23:07Z"
+  },
+  {
+    "id": "HT-AUTO-003-02-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "AUTO-003-02",
+    "project": "AUTO",
+    "title": "Agent session needed for AUTO-003-02: AUTO-003 slice 2: enforce required fields on auto-created tasks (status, blocked_human_review, created_by, source_run_id, parent).",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-07T01:01:44Z",
+    "updated_at": "2026-03-11T02:23:12Z"
+  },
+  {
+    "id": "HT-LOG-004-02-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "LOG-004-02",
+    "project": "LOG",
+    "title": "Agent session needed for LOG-004-02: LOG-004 slice 2: update candidate-rules workflow to record occurrences and review decisions per rule.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-07T01:01:47Z",
+    "updated_at": "2026-03-11T23:42:36Z"
+  },
+  {
+    "id": "HT-WEB-005-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "WEB-005",
+    "project": "WEB",
+    "title": "Agent session needed for WEB-005: Identify 'better Vercel' aspirations for HowlerAI hosting (DX, pricing, control) and capture as future HowlerAI Web roadmap items.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-07T01:01:51Z",
+    "updated_at": "2026-03-11T23:42:37Z"
+  },
+  {
+    "id": "HT-OS-003-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "OS-003",
+    "project": "OS",
+    "title": "Agent session needed for OS-003: Keep Dream OS backing file and dashboard views in sync as products/services evolve.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-07T01:01:53Z",
+    "updated_at": "2026-03-11T23:42:40Z"
+  },
+  {
+    "id": "HT-OS-009-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "OS-009",
+    "project": "OS",
+    "title": "Agent session needed for OS-009: Implement OS Core Health view and supporting data files.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-07T01:01:55Z",
+    "updated_at": "2026-03-11T23:42:41Z"
+  },
+  {
+    "id": "HT-CLOUD-002-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "CLOUD-002",
+    "project": "CLOUD",
+    "title": "Agent session needed for CLOUD-002: CLOUD-001-A: Define realtime interface and event model for Jarvis cloud dashboard (events, transports, API contracts).",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-07T02:13:20Z",
+    "updated_at": "2026-03-11T23:42:39Z"
+  },
+  {
+    "id": "HT-OS-009-03-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "OS-009-03",
+    "project": "OS",
+    "title": "Agent session needed for OS-009-03: OS Core Health v1 – os-health.json + dashboard card",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-07T03:12:22Z",
+    "updated_at": "2026-03-11T23:42:42Z"
+  },
+  {
+    "id": "HT-WEB-010-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "WEB-010",
+    "project": "WEB",
+    "title": "Agent session needed for WEB-010: Blink.new Portfolio – design internal \"Figma → Blink.new → Live\" service spec (scope, turnaround, pricing tiers).",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T01:31:58Z",
+    "updated_at": "2026-03-11T23:42:43Z"
+  },
+  {
+    "id": "HT-JV2-051-03-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "JV2-051-03",
+    "project": "JV2",
+    "title": "Agent session needed for JV2-051-03: Belief stores + symbolic checks for PBW/NHPW",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T01:31:59Z",
+    "updated_at": "2026-03-11T23:42:44Z"
+  },
+  {
+    "id": "HT-AUTO-004-01-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "AUTO-004-01",
+    "project": "AUTO",
+    "title": "Agent session needed for AUTO-004-01: AUTO-004 slice 1: review and align petey-autonomy-config.json with forbidden categories and conservative defaults.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:26:32Z",
+    "updated_at": "2026-03-11T23:42:45Z"
+  },
+  {
+    "id": "HT-OS-006-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "OS-006",
+    "project": "OS",
+    "title": "Agent session needed for OS-006: Document OS roles and responsibilities (Nude Emperor, Petey, workers, subagents).",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:27:07Z",
+    "updated_at": "2026-03-11T23:42:46Z"
+  },
+  {
+    "id": "HT-OS-007-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "OS-007",
+    "project": "OS",
+    "title": "Agent session needed for OS-007: Design a simple OS health model (green/yellow/red) based on key metrics and worker status.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:27:10Z",
+    "updated_at": "2026-03-11T23:42:47Z"
+  },
+  {
+    "id": "HT-OS-008-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "OS-008",
+    "project": "OS",
+    "title": "Agent session needed for OS-008: Wire basic OS health indicators into the Jarvis dashboard (traffic lights for key subsystems).",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:27:14Z",
+    "updated_at": "2026-03-11T23:42:48Z"
+  },
+  {
+    "id": "HT-JV2-052-03-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "JV2-052-03",
+    "project": "JV2",
+    "title": "Agent session needed for JV2-052-03: AST-style OS config + per-epic reasoning layer",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:28:27Z",
+    "updated_at": "2026-03-11T23:42:49Z"
+  },
+  {
+    "id": "HT-FT-003-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "FT-003",
+    "project": "FT",
+    "title": "Agent session needed for FT-003: Freelancer Tracker – Gumroad listing wrapper",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:28:41Z",
+    "updated_at": "2026-03-11T02:30:59Z"
+  },
+  {
+    "id": "HT-WEB-011-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "WEB-011",
+    "project": "WEB",
+    "title": "Agent session needed for WEB-011: Blink.new Portfolio – add project + metrics (sites built, sites live, monthly revenue) to Jarvis dashboard Services panel.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:30:24Z",
+    "updated_at": "2026-03-11T23:42:52Z"
+  },
+  {
+    "id": "HT-OS-009-01-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "OS-009-01",
+    "project": "OS",
+    "title": "Agent session needed for OS-009-01: OS Core Health v1 – define metrics and thresholds for green/yellow/red.",
+    "notes": "Resolved: v0.1 spec + NHPW internals fixes implemented (nhpw-internals-v0.1-spec.md, human-tasks-lib.sh, command-substitution fix).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:30:29Z",
+    "updated_at": "2026-03-11T23:42:55Z"
+  },
+  {
+    "id": "HT-JV2-050-04-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "JV2-050-04",
+    "project": "JV2",
+    "title": "Agent session needed for JV2-050-04: NHPW worker hygiene: fix warnings + human-tasks writes",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:30:49Z",
+    "updated_at": "2026-03-11T02:31:18Z"
+  },
+  {
+    "id": "HT-FT-004-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "FT-004",
+    "project": "FT",
+    "title": "Agent session needed for FT-004: Freelancer Tracker – Supabase schema + initial API",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:31:24Z",
+    "updated_at": "2026-03-11T23:42:57Z"
+  },
+  {
+    "id": "HT-AUTO-HANDLERS-001-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "AUTO-HANDLERS-001",
+    "project": "AUTO",
+    "title": "Agent session needed for AUTO-HANDLERS-001: Active Handlers Worker – define prefix-based rules for safe Active tasks (FT-*, AUTO-*, WEB-*) and wire cron (5m).",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:35:36Z",
+    "updated_at": "2026-03-11T23:42:50Z"
+  },
+  {
+    "id": "HT-WEB-012-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "WEB-012",
+    "project": "WEB",
+    "title": "Agent session needed for WEB-012: Blink.new Portfolio – define commercialization plan (Upwork offer template, landing page copy, pricing tiers).",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:35:46Z",
+    "updated_at": "2026-03-11T23:42:59Z"
+  },
+  {
+    "id": "HT-OS-009-02-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "OS-009-02",
+    "project": "OS",
+    "title": "Agent session needed for OS-009-02: OS Core Health v1 – implement metrics computation script and data file.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T02:36:59Z",
+    "updated_at": "2026-03-11T23:43:00Z"
+  },
+  {
+    "id": "HT-OS-LIVEDATA-001-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "OS-LIVEDATA-001",
+    "project": "OS",
+    "title": "Agent session needed for OS-LIVEDATA-001: Live data API – expose read-only dashboard/*.json from Clawd over HTTPS for /ctrltower.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-11T05:37:10Z",
+    "updated_at": "2026-03-11T23:43:02Z"
+  }
+]

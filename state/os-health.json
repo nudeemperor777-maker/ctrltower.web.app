@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-03-11T21:57:34-05:00",
+  "workers": {
+    "Jarvis": {
+      "running": true,
+      "count": 27
+    },
+    "Heartbeat": {
+      "running": true,
+      "count": 2
+    },
+    "NHPW": {
+      "running": true,
+      "count": 1
+    },
+    "PeteyBacklog": {
+      "running": true,
+      "count": 148
+    }
+  }
+}

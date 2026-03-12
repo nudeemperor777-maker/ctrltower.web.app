@@ -1,0 +1,247 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  /* Esoteric palette */
+  --glow-cyan: #22d3ee;
+  --glow-magenta: #e879f9;
+  --glow-amber: #fbbf24;
+  --glow-green: #34d399;
+  --glow-violet: #a78bfa;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ========== ESOTERIC CONTROL TOWER ========== */
+
+/* Layered radial gradient background */
+.jarvis-bg {
+  position: relative;
+  background:
+    radial-gradient(ellipse at 15% 20%, rgba(34,211,238,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 80%, rgba(232,121,249,0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(251,191,36,0.03) 0%, transparent 60%),
+    radial-gradient(ellipse at 30% 90%, rgba(52,211,153,0.04) 0%, transparent 40%),
+    #020617;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Slowly rotating glyph watermark */
+.jarvis-bg::before {
+  content: "⊛";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40vw;
+  opacity: 0.012;
+  color: var(--glow-cyan);
+  animation: glyph-rotate 120s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+  line-height: 1;
+}
+
+/* Secondary watermark glyph */
+.jarvis-bg::after {
+  content: "◎";
+  position: fixed;
+  top: 45%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-size: 25vw;
+  opacity: 0.008;
+  color: var(--glow-magenta);
+  animation: glyph-rotate 90s linear infinite reverse;
+  pointer-events: none;
+  z-index: 0;
+  line-height: 1;
+}
+
+/* Floating card base */
+.jarvis-card {
+  position: relative;
+  z-index: 1;
+  transition: transform 0.2s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  will-change: transform;
+}
+
+.jarvis-card:hover {
+  transform: translateY(-1px) scale(1.005);
+}
+
+/* Glow borders per lane color */
+.glow-cyan:hover {
+  border-color: rgba(34,211,238,0.5) !important;
+  box-shadow: 0 0 15px -3px rgba(34,211,238,0.15), 0 0 30px -5px rgba(34,211,238,0.08);
+}
+
+.glow-magenta:hover {
+  border-color: rgba(232,121,249,0.5) !important;
+  box-shadow: 0 0 15px -3px rgba(232,121,249,0.15), 0 0 30px -5px rgba(232,121,249,0.08);
+}
+
+.glow-amber:hover {
+  border-color: rgba(251,191,36,0.5) !important;
+  box-shadow: 0 0 15px -3px rgba(251,191,36,0.15), 0 0 30px -5px rgba(251,191,36,0.08);
+}
+
+.glow-emerald:hover {
+  border-color: rgba(52,211,153,0.5) !important;
+  box-shadow: 0 0 15px -3px rgba(52,211,153,0.15), 0 0 30px -5px rgba(52,211,153,0.08);
+}
+
+.glow-violet:hover {
+  border-color: rgba(167,139,250,0.5) !important;
+  box-shadow: 0 0 15px -3px rgba(167,139,250,0.15), 0 0 30px -5px rgba(167,139,250,0.08);
+}
+
+/* Status card pulse for non-zero values */
+.pulse-subtle {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* Expanded task card */
+.task-card-expanded {
+  animation: expand-in 0.25s ease-out;
+}
+
+.task-card-collapsed {
+  animation: collapse-out 0.15s ease-in;
+}
+
+/* Metric bar fill animation */
+.metric-bar-fill {
+  animation: bar-grow 0.8s ease-out;
+  transform-origin: left;
+}
+
+/* Section labels - small caps tracking */
+.section-label {
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+/* Sigil decorations */
+.sigil::before {
+  opacity: 0.4;
+  font-size: 0.75em;
+  margin-right: 0.3em;
+}
+
+.sigil-tasks::before { content: "● "; }
+.sigil-human::before { content: "☼ "; }
+.sigil-upwork::before { content: "∑ "; }
+.sigil-done::before { content: "◉ "; }
+.sigil-money::before { content: "₿ "; }
+.sigil-report::before { content: "∿ "; }
+
+/* Mono IDs */
+.task-id {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+}
+
+/* ========== KEYFRAMES ========== */
+
+@keyframes glyph-rotate {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to   { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.85; }
+}
+
+@keyframes expand-in {
+  from {
+    opacity: 0.7;
+    max-height: 60px;
+    transform: scaleY(0.95);
+  }
+  to {
+    opacity: 1;
+    max-height: 400px;
+    transform: scaleY(1);
+  }
+}
+
+@keyframes collapse-out {
+  from {
+    opacity: 1;
+    max-height: 400px;
+  }
+  to {
+    opacity: 0.8;
+    max-height: 60px;
+  }
+}
+
+@keyframes bar-grow {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.3s ease-out;
+}
+
+/* Stagger children animation */
+.stagger-children > * {
+  animation: fade-in-up 0.3s ease-out both;
+}
+.stagger-children > *:nth-child(1) { animation-delay: 0ms; }
+.stagger-children > *:nth-child(2) { animation-delay: 50ms; }
+.stagger-children > *:nth-child(3) { animation-delay: 100ms; }
+.stagger-children > *:nth-child(4) { animation-delay: 150ms; }
+.stagger-children > *:nth-child(5) { animation-delay: 200ms; }
+.stagger-children > *:nth-child(6) { animation-delay: 250ms; }
+
+/* Scrollbar styling for the control tower */
+.jarvis-bg ::-webkit-scrollbar {
+  width: 6px;
+}
+.jarvis-bg ::-webkit-scrollbar-track {
+  background: transparent;
+}
+.jarvis-bg ::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.3);
+  border-radius: 3px;
+}
+.jarvis-bg ::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.5);
+}
