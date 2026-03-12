@@ -63,25 +63,23 @@ export default async function JarvisDashboardPage() {
 
   const { tasks, products, humanTasks, upworkMessages } = await loadDashboardData();
 
-  // Best-effort load of OS health state from local filesystem (v0.1).
+  // Best-effort load of OS health metrics from data/dashboard.
   let osHealth: any = null;
   try {
-    const osHealthPath = path.join(process.cwd(), "state", "os-health.json");
+    const osHealthPath = path.join(dashboardDir(), "os-health.json");
     if (fs.existsSync(osHealthPath)) {
-      const raw = fs.readFileSync(osHealthPath, "utf8");
-      osHealth = JSON.parse(raw);
+      osHealth = JSON.parse(fs.readFileSync(osHealthPath, "utf8"));
     }
   } catch (err) {
     console.error("[jarvis] Failed to load os-health.json:", err);
   }
 
-  // Best-effort load Blink.new portfolio metrics.
+  // Best-effort load Blink.new portfolio metrics from data/dashboard.
   let blinkPortfolio: any = null;
   try {
-    const blinkPath = path.join(process.cwd(), "state", "blink-portfolio.json");
+    const blinkPath = path.join(dashboardDir(), "blink-portfolio.json");
     if (fs.existsSync(blinkPath)) {
-      const raw = fs.readFileSync(blinkPath, "utf8");
-      blinkPortfolio = JSON.parse(raw);
+      blinkPortfolio = JSON.parse(fs.readFileSync(blinkPath, "utf8"));
     }
   } catch (err) {
     console.error("[jarvis] Failed to load blink-portfolio.json:", err);
