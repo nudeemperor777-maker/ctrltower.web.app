@@ -13,7 +13,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:40Z",
-    "updated_at": "2026-03-11T23:42:35Z"
+    "updated_at": "2026-03-12T21:58:11Z"
   },
   {
     "id": "HT-JV2-036-03-needs-session",
@@ -29,7 +29,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:42Z",
-    "updated_at": "2026-03-11T02:23:07Z"
+    "updated_at": "2026-03-08T03:33:45Z"
   },
   {
     "id": "HT-AUTO-003-02-needs-session",
@@ -45,7 +45,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:44Z",
-    "updated_at": "2026-03-11T02:23:12Z"
+    "updated_at": "2026-03-12T21:56:19Z"
   },
   {
     "id": "HT-LOG-004-02-needs-session",
@@ -61,7 +61,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:47Z",
-    "updated_at": "2026-03-11T23:42:36Z"
+    "updated_at": "2026-03-12T21:57:08Z"
   },
   {
     "id": "HT-WEB-005-needs-session",
@@ -77,7 +77,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:51Z",
-    "updated_at": "2026-03-11T23:42:37Z"
+    "updated_at": "2026-03-12T21:49:06Z"
   },
   {
     "id": "HT-OS-003-needs-session",
@@ -93,7 +93,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:53Z",
-    "updated_at": "2026-03-11T23:42:40Z"
+    "updated_at": "2026-03-12T21:55:10Z"
   },
   {
     "id": "HT-OS-009-needs-session",
@@ -109,7 +109,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:55Z",
-    "updated_at": "2026-03-11T23:42:41Z"
+    "updated_at": "2026-03-12T05:04:15Z"
   },
   {
     "id": "HT-CLOUD-002-needs-session",
@@ -125,7 +125,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T02:13:20Z",
-    "updated_at": "2026-03-11T23:42:39Z"
+    "updated_at": "2026-03-12T21:51:27Z"
   },
   {
     "id": "HT-OS-009-03-needs-session",
@@ -141,23 +141,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T03:12:22Z",
-    "updated_at": "2026-03-11T23:42:42Z"
-  },
-  {
-    "id": "HT-WEB-010-needs-session",
-    "status": "Open",
-    "priority": "Medium",
-    "source": "OS-011",
-    "related_task_id": "WEB-010",
-    "project": "WEB",
-    "title": "Agent session needed for WEB-010: Blink.new Portfolio – design internal \"Figma → Blink.new → Live\" service spec (scope, turnaround, pricing tiers).",
-    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
-    "tags": [
-      "needs_session",
-      "agent_session_queue"
-    ],
-    "created_at": "2026-03-11T01:31:58Z",
-    "updated_at": "2026-03-11T23:42:43Z"
+    "updated_at": "2026-03-12T05:04:40Z"
   },
   {
     "id": "HT-JV2-051-03-needs-session",
@@ -172,8 +156,8 @@
       "needs_session",
       "agent_session_queue"
     ],
-    "created_at": "2026-03-11T01:31:59Z",
-    "updated_at": "2026-03-11T23:42:44Z"
+    "created_at": "2026-03-12T01:32:06Z",
+    "updated_at": "2026-03-12T05:03:35Z"
   },
   {
     "id": "HT-AUTO-004-01-needs-session",
@@ -188,8 +172,8 @@
       "needs_session",
       "agent_session_queue"
     ],
-    "created_at": "2026-03-11T02:26:32Z",
-    "updated_at": "2026-03-11T23:42:45Z"
+    "created_at": "2026-03-12T01:32:10Z",
+    "updated_at": "2026-03-12T05:06:45Z"
   },
   {
     "id": "HT-OS-006-needs-session",
@@ -204,8 +188,8 @@
       "needs_session",
       "agent_session_queue"
     ],
-    "created_at": "2026-03-11T02:27:07Z",
-    "updated_at": "2026-03-11T23:42:46Z"
+    "created_at": "2026-03-12T01:32:14Z",
+    "updated_at": "2026-03-12T05:06:42Z"
   },
   {
     "id": "HT-OS-007-needs-session",
@@ -220,8 +204,8 @@
       "needs_session",
       "agent_session_queue"
     ],
-    "created_at": "2026-03-11T02:27:10Z",
-    "updated_at": "2026-03-11T23:42:47Z"
+    "created_at": "2026-03-12T01:32:19Z",
+    "updated_at": "2026-03-12T05:06:33Z"
   },
   {
     "id": "HT-OS-008-needs-session",
@@ -236,8 +220,8 @@
       "needs_session",
       "agent_session_queue"
     ],
-    "created_at": "2026-03-11T02:27:14Z",
-    "updated_at": "2026-03-11T23:42:48Z"
+    "created_at": "2026-03-12T01:32:24Z",
+    "updated_at": "2026-03-12T05:07:40Z"
   },
   {
     "id": "HT-JV2-052-03-needs-session",
@@ -252,40 +236,8 @@
       "needs_session",
       "agent_session_queue"
     ],
-    "created_at": "2026-03-11T02:28:27Z",
-    "updated_at": "2026-03-11T23:42:49Z"
-  },
-  {
-    "id": "HT-FT-003-needs-session",
-    "status": "Open",
-    "priority": "Medium",
-    "source": "OS-011",
-    "related_task_id": "FT-003",
-    "project": "FT",
-    "title": "Agent session needed for FT-003: Freelancer Tracker – Gumroad listing wrapper",
-    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
-    "tags": [
-      "needs_session",
-      "agent_session_queue"
-    ],
-    "created_at": "2026-03-11T02:28:41Z",
-    "updated_at": "2026-03-11T02:30:59Z"
-  },
-  {
-    "id": "HT-WEB-011-needs-session",
-    "status": "Open",
-    "priority": "Medium",
-    "source": "OS-011",
-    "related_task_id": "WEB-011",
-    "project": "WEB",
-    "title": "Agent session needed for WEB-011: Blink.new Portfolio – add project + metrics (sites built, sites live, monthly revenue) to Jarvis dashboard Services panel.",
-    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
-    "tags": [
-      "needs_session",
-      "agent_session_queue"
-    ],
-    "created_at": "2026-03-11T02:30:24Z",
-    "updated_at": "2026-03-11T23:42:52Z"
+    "created_at": "2026-03-12T01:32:28Z",
+    "updated_at": "2026-03-12T05:08:01Z"
   },
   {
     "id": "HT-OS-009-01-needs-session",
@@ -295,29 +247,13 @@
     "related_task_id": "OS-009-01",
     "project": "OS",
     "title": "Agent session needed for OS-009-01: OS Core Health v1 – define metrics and thresholds for green/yellow/red.",
-    "notes": "Resolved: v0.1 spec + NHPW internals fixes implemented (nhpw-internals-v0.1-spec.md, human-tasks-lib.sh, command-substitution fix).",
-    "tags": [
-      "needs_session",
-      "agent_session_queue"
-    ],
-    "created_at": "2026-03-11T02:30:29Z",
-    "updated_at": "2026-03-11T23:42:55Z"
-  },
-  {
-    "id": "HT-JV2-050-04-needs-session",
-    "status": "Open",
-    "priority": "Medium",
-    "source": "OS-011",
-    "related_task_id": "JV2-050-04",
-    "project": "JV2",
-    "title": "Agent session needed for JV2-050-04: NHPW worker hygiene: fix warnings + human-tasks writes",
     "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
     "tags": [
       "needs_session",
       "agent_session_queue"
     ],
-    "created_at": "2026-03-11T02:30:49Z",
-    "updated_at": "2026-03-11T02:31:18Z"
+    "created_at": "2026-03-12T01:32:33Z",
+    "updated_at": "2026-03-12T05:10:11Z"
   },
   {
     "id": "HT-FT-004-needs-session",
@@ -332,40 +268,8 @@
       "needs_session",
       "agent_session_queue"
     ],
-    "created_at": "2026-03-11T02:31:24Z",
-    "updated_at": "2026-03-11T23:42:57Z"
-  },
-  {
-    "id": "HT-AUTO-HANDLERS-001-needs-session",
-    "status": "Open",
-    "priority": "Medium",
-    "source": "OS-011",
-    "related_task_id": "AUTO-HANDLERS-001",
-    "project": "AUTO",
-    "title": "Agent session needed for AUTO-HANDLERS-001: Active Handlers Worker – define prefix-based rules for safe Active tasks (FT-*, AUTO-*, WEB-*) and wire cron (5m).",
-    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
-    "tags": [
-      "needs_session",
-      "agent_session_queue"
-    ],
-    "created_at": "2026-03-11T02:35:36Z",
-    "updated_at": "2026-03-11T23:42:50Z"
-  },
-  {
-    "id": "HT-WEB-012-needs-session",
-    "status": "Open",
-    "priority": "Medium",
-    "source": "OS-011",
-    "related_task_id": "WEB-012",
-    "project": "WEB",
-    "title": "Agent session needed for WEB-012: Blink.new Portfolio – define commercialization plan (Upwork offer template, landing page copy, pricing tiers).",
-    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
-    "tags": [
-      "needs_session",
-      "agent_session_queue"
-    ],
-    "created_at": "2026-03-11T02:35:46Z",
-    "updated_at": "2026-03-11T23:42:59Z"
+    "created_at": "2026-03-12T01:32:37Z",
+    "updated_at": "2026-03-12T05:10:41Z"
   },
   {
     "id": "HT-OS-009-02-needs-session",
@@ -380,23 +284,295 @@
       "needs_session",
       "agent_session_queue"
     ],
-    "created_at": "2026-03-11T02:36:59Z",
-    "updated_at": "2026-03-11T23:43:00Z"
+    "created_at": "2026-03-12T01:32:43Z",
+    "updated_at": "2026-03-12T05:10:48Z"
   },
   {
-    "id": "HT-OS-LIVEDATA-001-needs-session",
+    "id": "HT-OS-004-needs-session",
     "status": "Open",
     "priority": "Medium",
     "source": "OS-011",
-    "related_task_id": "OS-LIVEDATA-001",
+    "related_task_id": "OS-004",
     "project": "OS",
-    "title": "Agent session needed for OS-LIVEDATA-001: Live data API – expose read-only dashboard/*.json from Clawd over HTTPS for /ctrltower.",
+    "title": "Agent session needed for OS-004: Define HowlerAI's initial metrics and observability requirements across products and services.",
     "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
     "tags": [
       "needs_session",
       "agent_session_queue"
     ],
-    "created_at": "2026-03-11T05:37:10Z",
-    "updated_at": "2026-03-11T23:43:02Z"
+    "created_at": "2026-03-12T02:02:40Z",
+    "updated_at": "2026-03-12T05:06:58Z"
+  },
+  {
+    "id": "HT-OS-005-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "OS-005",
+    "project": "OS",
+    "title": "Agent session needed for OS-005: Align Jarvis v2, Logician, and Petey Autonomy plans with the Dream OS roadmap.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T02:22:04Z",
+    "updated_at": "2026-03-12T05:06:28Z"
+  },
+  {
+    "id": "HT-FT-003-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "FT-003",
+    "project": "FT",
+    "title": "Agent session needed for FT-003: Freelancer Tracker – Gumroad listing wrapper",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T02:27:48Z",
+    "updated_at": "2026-03-12T05:09:47Z"
+  },
+  {
+    "id": "HT-LOG-004-03-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "LOG-004-03",
+    "project": "LOG",
+    "title": "Agent session needed for LOG-004-03: LOG-004 slice 3: add safety checks so rules touching external/billing/infra/high-risk behavior cannot be Promoted.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T02:42:46Z",
+    "updated_at": "2026-03-12T05:08:22Z"
+  },
+  {
+    "id": "HT-JV2-021-02-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "JV2-021-02",
+    "project": "JV2",
+    "title": "Agent session needed for JV2-021-02: JV2-021 slice 2: encode external side-effect safety rule (workers must return exit 2 for unsafe/external actions) and add examples.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T02:59:15Z",
+    "updated_at": "2026-03-12T05:11:32Z"
+  },
+  {
+    "id": "HT-CLOUD-003-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "CLOUD-003",
+    "project": "CLOUD",
+    "title": "Agent session needed for CLOUD-003: CLOUD-001-B: Implement a small realtime PoC for Jarvis cloud dashboard on current hosting stack.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T03:26:28Z",
+    "updated_at": "2026-03-12T05:09:00Z"
+  },
+  {
+    "id": "HT-JV2-021-03-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "JV2-021-03",
+    "project": "JV2",
+    "title": "Agent session needed for JV2-021-03: JV2-021 slice 3: add a worked example for a new PREFIX-### project using the worker template.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T03:38:01Z",
+    "updated_at": "2026-03-12T05:09:21Z"
+  },
+  {
+    "id": "HT-WEB-006-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "WEB-006",
+    "project": "WEB",
+    "title": "Agent session needed for WEB-006: WEB-005 DX-1: Define environment conventions (local/dev/staging/prod) and env var strategy for howlerai-web hosting.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T03:40:15Z",
+    "updated_at": "2026-03-12T05:11:11Z"
+  },
+  {
+    "id": "HT-AUTO-003-03-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "AUTO-003-03",
+    "project": "AUTO",
+    "title": "Agent session needed for AUTO-003-03: AUTO-003 slice 3: add explicit forbiddance checks for high-risk categories (external messages, billing, DNS, infra, cron, cost-bearing interactions).",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T03:46:58Z",
+    "updated_at": "2026-03-12T05:11:08Z"
+  },
+  {
+    "id": "HT-WEB-007-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "WEB-007",
+    "project": "WEB",
+    "title": "Agent session needed for WEB-007: WEB-005 DX-2: Document PR preview QA flow for howlerai-web (what to test before merging, including future realtime surfaces).",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T04:01:53Z",
+    "updated_at": "2026-03-12T05:12:27Z"
+  },
+  {
+    "id": "HT-CLOUD-004-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "CLOUD-004",
+    "project": "CLOUD",
+    "title": "Agent session needed for CLOUD-004: CLOUD-001-C: Review scaling and cost of realtime PoC using metrics from COST and CTRL tasks and adjust hosting plan.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T04:10:39Z",
+    "updated_at": "2026-03-12T05:13:20Z"
+  },
+  {
+    "id": "HT-AUTO-004-02-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "AUTO-004-02",
+    "project": "AUTO",
+    "title": "Agent session needed for AUTO-004-02: AUTO-004 slice 2: update dashboard Autonomy card wiring if config fields change (levels/modes).",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T04:20:15Z",
+    "updated_at": "2026-03-12T05:12:40Z"
+  },
+  {
+    "id": "HT-JV2-022-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "JV2-022",
+    "project": "JV2",
+    "title": "Agent session needed for JV2-022: Explore SpacetimeDB-style co-located compute+data architecture for Jarvis/HowlerAI control tower (compare to Supabase/Postgres).",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T04:20:39Z",
+    "updated_at": "2026-03-12T05:12:11Z"
+  },
+  {
+    "id": "HT-WEB-008-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "WEB-008",
+    "project": "WEB",
+    "title": "Agent session needed for WEB-008: WEB-005 COST-1: Baseline Vercel cost bands for marketing, basic dashboard, and realtime dashboard traffic.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T04:29:01Z",
+    "updated_at": "2026-03-12T05:13:37Z"
+  },
+  {
+    "id": "HT-JV2-023-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "JV2-023",
+    "project": "JV2",
+    "title": "Agent session needed for JV2-023: Draft 'People's Palantir' + anti-patent-trolling IP/licensing strategy for ops analytics stack.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T04:35:02Z",
+    "updated_at": "2026-03-12T05:13:49Z"
+  },
+  {
+    "id": "HT-WEB-027-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "WEB-027",
+    "project": "WEB",
+    "title": "Agent session needed for WEB-027: Restore local /ctrltower sync button wiring to clean ctrltower.web.app repo",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T04:42:18Z",
+    "updated_at": "2026-03-12T05:14:01Z"
+  },
+  {
+    "id": "HT-WEB-009-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "WEB-009",
+    "project": "WEB",
+    "title": "Agent session needed for WEB-009: WEB-005 CTRL-1: Establish observability baseline for howlerai-web (logs + basic metrics) tied to deployments.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T04:59:48Z",
+    "updated_at": "2026-03-12T05:14:21Z"
+  },
+  {
+    "id": "HT-JV2-034-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "JV2-034",
+    "project": "JV2",
+    "title": "Agent session needed for JV2-034: Make dashboard cards draggable so collapsible widgets (Kanban, Planning, Metrics, Human Tasks) can be rearranged like a lightweight Lucidspark canvas.",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-12T05:01:49Z",
+    "updated_at": "2026-03-12T05:14:15Z"
   }
 ]

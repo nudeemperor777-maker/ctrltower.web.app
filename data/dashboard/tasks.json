@@ -222,14 +222,16 @@
   {
     "id": "LOG-004-03",
     "title": "LOG-004 slice 3: add safety checks so rules touching external/billing/infra/high-risk behavior cannot be Promoted.",
-    "status": "Active",
+    "status": "Backlog",
     "blocked": false,
     "type": "integration",
     "source": "Logician",
     "priority": "Low",
     "parent": "LOG-004",
     "execution_mode": "worker",
-    "activeHandlersLastTouched": "2026-03-11T21:29:30-05:00"
+    "activeHandlersLastTouched": "2026-03-11T21:35:14-05:00",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "JV2-013",
@@ -370,14 +372,16 @@
   {
     "id": "JV2-021-02",
     "title": "JV2-021 slice 2: encode external side-effect safety rule (workers must return exit 2 for unsafe/external actions) and add examples.",
-    "status": "Active",
+    "status": "Backlog",
     "blocked": false,
     "type": "design",
     "source": "Jarvis v2",
     "priority": "Low",
     "parent": "JV2-021",
     "execution_mode": "worker",
-    "activeHandlersLastTouched": "2026-03-11T21:28:46-05:00"
+    "activeHandlersLastTouched": "2026-03-11T21:59:27-05:00",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "JV2-021-03",
@@ -388,7 +392,10 @@
     "source": "Jarvis v2",
     "priority": "Low",
     "parent": "JV2-021",
-    "execution_mode": "worker"
+    "execution_mode": "worker",
+    "activeHandlersLastTouched": "2026-03-11T22:04:31-05:00",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "JV2-032",
@@ -564,7 +571,10 @@
     "type": "research",
     "source": "Jarvis v2",
     "priority": "Low",
-    "execution_mode": "worker"
+    "execution_mode": "worker",
+    "activeHandlersLastTouched": "2026-03-11T23:02:07-05:00",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "JV2-023",
@@ -574,7 +584,9 @@
     "type": "design",
     "source": "Petey Autonomy",
     "priority": "Low",
-    "execution_mode": "worker"
+    "execution_mode": "worker",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "JV2-034",
@@ -584,7 +596,10 @@
     "type": "design",
     "source": "Jarvis v2",
     "priority": "Low",
-    "execution_mode": "worker"
+    "execution_mode": "worker",
+    "activeHandlersLastTouched": "2026-03-11T23:33:47-05:00",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "JV2-035",
@@ -611,12 +626,14 @@
   {
     "id": "WEB-006",
     "title": "WEB-005 DX-1: Define environment conventions (local/dev/staging/prod) and env var strategy for howlerai-web hosting.",
-    "status": "Active",
+    "status": "Backlog",
     "blocked": false,
     "type": "design",
     "source": "HowlerAI Web",
     "priority": "Low",
-    "execution_mode": "worker"
+    "execution_mode": "worker",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "WEB-007",
@@ -626,7 +643,9 @@
     "type": "docs",
     "source": "HowlerAI Web",
     "priority": "Low",
-    "execution_mode": "worker"
+    "execution_mode": "worker",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "WEB-008",
@@ -636,7 +655,9 @@
     "type": "research",
     "source": "HowlerAI Web",
     "priority": "Low",
-    "execution_mode": "worker"
+    "execution_mode": "worker",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "WEB-009",
@@ -646,7 +667,10 @@
     "type": "integration",
     "source": "HowlerAI Web",
     "priority": "Low",
-    "execution_mode": "worker"
+    "execution_mode": "worker",
+    "activeHandlersLastTouched": "2026-03-11T23:58:49-05:00",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "CLOUD-002",
@@ -664,12 +688,14 @@
   {
     "id": "CLOUD-003",
     "title": "CLOUD-001-B: Implement a small realtime PoC for Jarvis cloud dashboard on current hosting stack.",
-    "status": "Active",
+    "status": "Backlog",
     "blocked": false,
     "type": "integration",
     "source": "HowlerAI Web",
     "priority": "Low",
-    "execution_mode": "worker"
+    "execution_mode": "worker",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "CLOUD-004",
@@ -679,7 +705,9 @@
     "type": "research",
     "source": "HowlerAI Web",
     "priority": "Low",
-    "execution_mode": "worker"
+    "execution_mode": "worker",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "JV2-016",
@@ -754,13 +782,15 @@
   {
     "id": "AUTO-003-03",
     "title": "AUTO-003 slice 3: add explicit forbiddance checks for high-risk categories (external messages, billing, DNS, infra, cron, cost-bearing interactions).",
-    "status": "Active",
+    "status": "Backlog",
     "blocked": false,
     "type": "integration",
     "source": "Petey Autonomy",
     "priority": "Low",
     "parent": "AUTO-003",
-    "execution_mode": "worker"
+    "execution_mode": "worker",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "AUTO-004",
@@ -796,7 +826,9 @@
     "source": "Petey Autonomy",
     "priority": "Low",
     "parent": "AUTO-004",
-    "execution_mode": "worker"
+    "execution_mode": "worker",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "AUTO-005",
@@ -1166,5 +1198,43 @@
     "execution_mode": "worker",
     "notes": "completed_at field added to all Done tasks in dashboard/tasks.json (stamped with current time where missing), and /jarvis now sorts Done tasks by completed_at descending so the most recently completed tasks appear at the top of the Done column.",
     "completed_at": "2026-03-12T02:16:36.632Z"
+  },
+  {
+    "id": "WEB-026",
+    "title": "Clean ctrltower.web.app Vercel source repo and migrate to minimal app-only layout",
+    "status": "Backlog",
+    "blocked": false,
+    "type": "integration",
+    "source": "HowlerAI Web",
+    "priority": "High",
+    "execution_mode": "session",
+    "notes": "Design and execute a safe migration for the public /ctrltower UI: create a truly minimal app repo/branch (Next.js + data/dashboard/*.json only), strip logs/state/memory/scripts from the Vercel source, and update Vercel to use the clean app as the deployment target. Then port the latest JarvisDashboardClient UI changes (Done lane limit removal, OS Health card, Blink.new card, completed_at sorting) into that clean repo and redeploy. No commits from the polluted workspace-mirror repo; use Opus-level care for Git history and repo hygiene."
+  },
+  {
+    "id": "WEB-027",
+    "title": "Restore local /ctrltower sync button wiring to clean ctrltower.web.app repo",
+    "status": "Active",
+    "blocked": false,
+    "type": "integration",
+    "source": "HowlerAI Web",
+    "priority": "Medium",
+    "execution_mode": "worker",
+    "notes": "Add a minimal scripts/sync-dashboard.sh to the clean ctrltower.web.app repo (Next.js app + data/dashboard/*.json only) and update LOCAL_SYNC_SCRIPT to point at it, so the local \"Sync dashboard → public /ctrltower\" button once again copies ~/.openclaw/workspace/dashboard/*.json into data/dashboard/*.json, commits, and pushes safely on top of origin/main. No logs/state/memory/scripts should be added to the deploy repo.",
+    "activeHandlersLastTouched": "2026-03-11T23:12:37-05:00",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
+  },
+  {
+    "id": "JV2-036-04",
+    "title": "JV2-036 slice 4: auto-promote highest-priority backlog task when Active lane is empty",
+    "status": "Active",
+    "blocked": false,
+    "type": "integration",
+    "source": "Jarvis v2",
+    "priority": "High",
+    "parent": "JV2-036",
+    "execution_mode": "worker",
+    "notes": "Extend petey-backlog-worker / active-handlers-worker to detect when there are zero Active tasks and automatically promote the next highest-priority, unblocked Backlog task (per project rules) into Active, respecting autonomy + safety constraints.",
+    "activeHandlersLastTouched": "2026-03-12T16:59:02-05:00"
   }
 ]
