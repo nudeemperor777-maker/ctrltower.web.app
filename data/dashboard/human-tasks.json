@@ -13,7 +13,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:40Z",
-    "updated_at": "2026-03-12T22:47:36Z"
+    "updated_at": "2026-03-13T04:25:22Z"
   },
   {
     "id": "HT-JV2-036-03-needs-session",
@@ -45,7 +45,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:44Z",
-    "updated_at": "2026-03-12T22:46:45Z"
+    "updated_at": "2026-03-13T04:25:49Z"
   },
   {
     "id": "HT-LOG-004-02-needs-session",
@@ -61,7 +61,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:47Z",
-    "updated_at": "2026-03-12T22:32:32Z"
+    "updated_at": "2026-03-13T04:26:06Z"
   },
   {
     "id": "HT-WEB-005-needs-session",
@@ -77,7 +77,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:51Z",
-    "updated_at": "2026-03-12T22:38:34Z"
+    "updated_at": "2026-03-13T04:18:37Z"
   },
   {
     "id": "HT-OS-003-needs-session",
@@ -93,7 +93,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:53Z",
-    "updated_at": "2026-03-12T22:45:50Z"
+    "updated_at": "2026-03-13T04:22:12Z"
   },
   {
     "id": "HT-OS-009-needs-session",
@@ -109,7 +109,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T01:01:55Z",
-    "updated_at": "2026-03-12T22:48:11Z"
+    "updated_at": "2026-03-13T04:20:30Z"
   },
   {
     "id": "HT-CLOUD-002-needs-session",
@@ -125,7 +125,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T02:13:20Z",
-    "updated_at": "2026-03-12T22:36:23Z"
+    "updated_at": "2026-03-13T04:23:59Z"
   },
   {
     "id": "HT-OS-009-03-needs-session",
@@ -141,7 +141,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-07T03:12:22Z",
-    "updated_at": "2026-03-12T05:04:40Z"
+    "updated_at": "2026-03-13T04:10:14Z"
   },
   {
     "id": "HT-JV2-051-03-needs-session",
@@ -157,7 +157,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T01:32:06Z",
-    "updated_at": "2026-03-12T22:39:29Z"
+    "updated_at": "2026-03-13T04:07:20Z"
   },
   {
     "id": "HT-AUTO-004-01-needs-session",
@@ -173,7 +173,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T01:32:10Z",
-    "updated_at": "2026-03-12T05:06:45Z"
+    "updated_at": "2026-03-13T03:01:19Z"
   },
   {
     "id": "HT-OS-006-needs-session",
@@ -189,7 +189,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T01:32:14Z",
-    "updated_at": "2026-03-12T05:06:42Z"
+    "updated_at": "2026-03-13T03:20:24Z"
   },
   {
     "id": "HT-OS-007-needs-session",
@@ -205,7 +205,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T01:32:19Z",
-    "updated_at": "2026-03-12T05:06:33Z"
+    "updated_at": "2026-03-13T03:25:08Z"
   },
   {
     "id": "HT-OS-008-needs-session",
@@ -221,7 +221,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T01:32:24Z",
-    "updated_at": "2026-03-12T05:07:40Z"
+    "updated_at": "2026-03-13T03:28:44Z"
   },
   {
     "id": "HT-JV2-052-03-needs-session",
@@ -237,7 +237,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T01:32:28Z",
-    "updated_at": "2026-03-12T05:08:01Z"
+    "updated_at": "2026-03-13T03:43:33Z"
   },
   {
     "id": "HT-OS-009-01-needs-session",
@@ -253,7 +253,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T01:32:33Z",
-    "updated_at": "2026-03-12T05:10:11Z"
+    "updated_at": "2026-03-13T03:59:49Z"
   },
   {
     "id": "HT-FT-004-needs-session",
@@ -269,7 +269,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T01:32:37Z",
-    "updated_at": "2026-03-12T05:10:41Z"
+    "updated_at": "2026-03-13T04:03:14Z"
   },
   {
     "id": "HT-OS-009-02-needs-session",
@@ -285,7 +285,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T01:32:43Z",
-    "updated_at": "2026-03-12T05:10:48Z"
+    "updated_at": "2026-03-13T04:06:28Z"
   },
   {
     "id": "HT-OS-004-needs-session",
@@ -301,7 +301,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T02:02:40Z",
-    "updated_at": "2026-03-12T05:06:58Z"
+    "updated_at": "2026-03-13T04:21:03Z"
   },
   {
     "id": "HT-OS-005-needs-session",
@@ -317,7 +317,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T02:22:04Z",
-    "updated_at": "2026-03-12T05:06:28Z"
+    "updated_at": "2026-03-13T03:16:59Z"
   },
   {
     "id": "HT-FT-003-needs-session",
@@ -333,7 +333,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T02:27:48Z",
-    "updated_at": "2026-03-12T22:34:56Z"
+    "updated_at": "2026-03-13T03:50:14Z"
   },
   {
     "id": "HT-LOG-004-03-needs-session",
@@ -349,7 +349,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T02:42:46Z",
-    "updated_at": "2026-03-12T05:08:22Z"
+    "updated_at": "2026-03-13T03:43:37Z"
   },
   {
     "id": "HT-JV2-021-02-needs-session",
@@ -365,7 +365,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T02:59:15Z",
-    "updated_at": "2026-03-12T05:11:32Z"
+    "updated_at": "2026-03-13T04:12:21Z"
   },
   {
     "id": "HT-CLOUD-003-needs-session",
@@ -381,7 +381,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T03:26:28Z",
-    "updated_at": "2026-03-12T05:09:00Z"
+    "updated_at": "2026-03-13T03:45:48Z"
   },
   {
     "id": "HT-JV2-021-03-needs-session",
@@ -397,7 +397,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T03:38:01Z",
-    "updated_at": "2026-03-12T05:09:21Z"
+    "updated_at": "2026-03-12T23:38:03Z"
   },
   {
     "id": "HT-WEB-006-needs-session",
@@ -413,7 +413,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T03:40:15Z",
-    "updated_at": "2026-03-12T05:11:11Z"
+    "updated_at": "2026-03-13T04:05:07Z"
   },
   {
     "id": "HT-AUTO-003-03-needs-session",
@@ -429,7 +429,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T03:46:58Z",
-    "updated_at": "2026-03-12T05:11:08Z"
+    "updated_at": "2026-03-13T04:10:42Z"
   },
   {
     "id": "HT-WEB-007-needs-session",
@@ -445,7 +445,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T04:01:53Z",
-    "updated_at": "2026-03-12T05:12:27Z"
+    "updated_at": "2026-03-13T03:40:31Z"
   },
   {
     "id": "HT-CLOUD-004-needs-session",
@@ -461,7 +461,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T04:10:39Z",
-    "updated_at": "2026-03-12T05:13:20Z"
+    "updated_at": "2026-03-13T03:37:00Z"
   },
   {
     "id": "HT-AUTO-004-02-needs-session",
@@ -477,7 +477,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T04:20:15Z",
-    "updated_at": "2026-03-12T05:12:40Z"
+    "updated_at": "2026-03-13T03:33:56Z"
   },
   {
     "id": "HT-JV2-022-needs-session",
@@ -509,7 +509,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T04:29:01Z",
-    "updated_at": "2026-03-12T05:13:37Z"
+    "updated_at": "2026-03-13T02:44:11Z"
   },
   {
     "id": "HT-JV2-023-needs-session",
@@ -525,7 +525,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T04:35:02Z",
-    "updated_at": "2026-03-12T05:13:49Z"
+    "updated_at": "2026-03-13T00:10:42Z"
   },
   {
     "id": "HT-WEB-027-needs-session",
@@ -541,7 +541,7 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T04:42:18Z",
-    "updated_at": "2026-03-12T05:14:01Z"
+    "updated_at": "2026-03-13T04:05:34Z"
   },
   {
     "id": "HT-WEB-009-needs-session",
@@ -573,6 +573,22 @@
       "agent_session_queue"
     ],
     "created_at": "2026-03-12T05:01:49Z",
-    "updated_at": "2026-03-12T05:14:15Z"
+    "updated_at": "2026-03-13T00:00:54Z"
+  },
+  {
+    "id": "HT-JV2-036-04-needs-session",
+    "status": "Open",
+    "priority": "Medium",
+    "source": "OS-011",
+    "related_task_id": "JV2-036-04",
+    "project": "JV2",
+    "title": "Agent session needed for JV2-036-04: JV2-036 slice 4: auto-promote highest-priority backlog task when Active lane is empty",
+    "notes": "Task has hit the needs_session saturation threshold in PBW. Move this into a live Petey session and run the project worker directly (agent_session).",
+    "tags": [
+      "needs_session",
+      "agent_session_queue"
+    ],
+    "created_at": "2026-03-13T00:05:37Z",
+    "updated_at": "2026-03-13T00:08:41Z"
   }
 ]

@@ -1213,7 +1213,7 @@
   {
     "id": "WEB-027",
     "title": "Restore local /ctrltower sync button wiring to clean ctrltower.web.app repo",
-    "status": "Active",
+    "status": "Backlog",
     "blocked": false,
     "type": "integration",
     "source": "HowlerAI Web",
@@ -1235,19 +1235,22 @@
     "parent": "JV2-036",
     "execution_mode": "worker",
     "notes": "Extend petey-backlog-worker / active-handlers-worker to detect when there are zero Active tasks and automatically promote the next highest-priority, unblocked Backlog task (per project rules) into Active, respecting autonomy + safety constraints.",
-    "activeHandlersLastTouched": "2026-03-12T17:36:49-05:00"
+    "activeHandlersLastTouched": "2026-03-12T22:49:19-05:00"
   },
   {
     "id": "WEB-027-01",
     "title": "WEB-027 slice 1: publish-dashboard-snapshot.sh helper in clean deploy repo",
-    "status": "Active",
+    "status": "Backlog",
     "blocked": false,
     "type": "integration",
     "source": "HowlerAI Web",
     "priority": "Medium",
     "parent": "WEB-027",
     "execution_mode": "worker",
-    "notes": "In /Users/admin/projects/ctrltower.web.app (clean deploy clone), add scripts/publish-dashboard-snapshot.sh that pulls origin/main, copies ~/.openclaw/workspace/dashboard/*.json into data/dashboard/*.json, commits, and pushes to origin/main. This script becomes the single approved path for publishing OS dashboard snapshots to public /ctrltower, and can later be invoked by a worker/subagent with explicit human approval."
+    "notes": "In /Users/admin/projects/ctrltower.web.app (clean deploy clone), add scripts/publish-dashboard-snapshot.sh that pulls origin/main, copies ~/.openclaw/workspace/dashboard/*.json into data/dashboard/*.json, commits, and pushes to origin/main. This script becomes the single approved path for publishing OS dashboard snapshots to public /ctrltower, and can later be invoked by a worker/subagent with explicit human approval.",
+    "activeHandlersLastTouched": "2026-03-12T20:25:05-05:00",
+    "session_queue": true,
+    "session_queue_reason": "needs_session_saturation"
   },
   {
     "id": "ID-GUARD-RF-001",
@@ -1308,5 +1311,60 @@
     "source": "Petey Autonomy",
     "priority": "Medium",
     "execution_mode": "session"
+  },
+  {
+    "id": "WEB-028",
+    "title": "HowlerAI homepage v1 – Control Tower SaaS hub",
+    "status": "Done",
+    "blocked": false,
+    "type": "integration",
+    "source": "HowlerAI Web",
+    "priority": "Medium",
+    "execution_mode": "session",
+    "notes": "Refresh howler-ai.com homepage around Control Tower and live products, including link to public /ctrltower and SaaS/operator offers."
+  },
+  {
+    "id": "PRODUCT-CTRL-OP-001",
+    "title": "Control Tower Operator Edition – create clean template bundle + README",
+    "status": "Done",
+    "blocked": false,
+    "type": "integration",
+    "source": "HowlerAI Web",
+    "priority": "High",
+    "execution_mode": "session",
+    "notes": "Carve out a sanitized Control Tower OS template for Operator Edition (OpenClaw): dashboard-template/*.json, src/app/ctrltower, src/app/jarvis, scripts, and README."
+  },
+  {
+    "id": "PRODUCT-RT-CODE-001",
+    "title": "Retainer Tracker code bundle – repo hygiene + README for Gumroad",
+    "status": "Done",
+    "blocked": false,
+    "type": "integration",
+    "source": "HowlerAI Web",
+    "priority": "Medium",
+    "execution_mode": "session",
+    "notes": "Prepare a clean Retainer Tracker React Native/Expo project with README and zip for Gumroad code bundle; wired into homepage products."
+  },
+  {
+    "id": "AUTOMATION-X-POSTER-001",
+    "title": "Wire X poster skill (x-poster) with env vars and twitter-api-v2",
+    "status": "Backlog",
+    "blocked": false,
+    "type": "integration",
+    "source": "HowlerAI Web",
+    "priority": "Medium",
+    "execution_mode": "session",
+    "notes": "Implement skills/x-poster/index.ts using twitter-api-v2, register post_tweet/reply_tweet tools, load X_* env vars from secret store, and log actions to reports/x-poster.log."
+  },
+  {
+    "id": "AUTOMATION-X-TWURL-001",
+    "title": "Configure twurl for @howler_ops and document usage",
+    "status": "Backlog",
+    "blocked": false,
+    "type": "integration",
+    "source": "HowlerAI Web",
+    "priority": "Low",
+    "execution_mode": "session",
+    "notes": "Finish twurl install, authorize with @howler_ops app keys, and document a simple pattern for posting tweets from the terminal as a backup path."
   }
 ]
