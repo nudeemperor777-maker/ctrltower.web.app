@@ -61,6 +61,15 @@ const products = [
     href: "https://howler4388.gumroad.com/l/rtwjsz",
     cta: "View on Gumroad",
   },
+  {
+    id: "retainer-tracker-code",
+    label: "Code Bundle",
+    title: "HowlerAI Retainer Tracker (Code Bundle)",
+    blurb:
+      "React Native / Expo app for tracking client retainers, hours, and effective rates — so you always know where your time and margin went.",
+    href: "https://howler4388.gumroad.com/l/bxjrg",
+    cta: "View on Gumroad",
+  },
 ];
 
 export default function Home() {
