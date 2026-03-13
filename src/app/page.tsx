@@ -17,6 +17,24 @@ const sections = {
 
 const products = [
   {
+    id: "control-tower-saaas",
+    label: "SAAAS",
+    title: "HowlerAI Control Tower (SAAAS Intro Call)",
+    blurb:
+      "Book a focused ops call to see if a custom HowlerAI Control Tower + worker OS is right for your business (leads into $2k setup + $1k/$5k tiers).",
+    href: "https://howler4388.gumroad.com/l/tjjqdp",
+    cta: "View SAAAS offer",
+  },
+  {
+    id: "control-tower-operator",
+    label: "Operator Edition",
+    title: "HowlerAI Control Tower – Operator Edition (OpenClaw)",
+    blurb:
+      "A file-backed Control Tower + worker OS you run on your own machine, tuned for OpenClaw and DIY operators. Requires a local dev environment and an operator.",
+    href: "https://howler4388.gumroad.com/l/bface",
+    cta: "View Operator Edition",
+  },
+  {
     id: "ai-prompt-pack",
     label: "Prompt Pack",
     title: "The Ultimate AI Prompt Pack",
