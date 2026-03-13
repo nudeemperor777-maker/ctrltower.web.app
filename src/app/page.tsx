@@ -2,11 +2,11 @@ import Link from "next/link";
 
 const sections = {
   hero: {
-    eyebrow: "Retainer Tracker up front. Jarvis under the hood.",
-    headline: "Stop losing money on retainers you can't see.",
+    eyebrow: "Ops copilots up front. Jarvis under the hood.",
+    headline: "See your work. Trust your numbers.",
     subheadline:
-      "HowlerAI ships small, sharp tools for operators. Start with a retainer tracker that shows where your margin actually goes—then let the ops layer underneath keep everything coordinated.",
-    primaryCta: "Get the Retainer Tracker",
+      "HowlerAI ships small, sharp tools for operators. A live control tower on top, and an ops layer underneath that keeps tasks, metrics, and signals coordinated.",
+    primaryCta: "View live products",
     secondaryCta: "See what's coming",
   },
   productsIntro: {
@@ -16,15 +16,6 @@ const sections = {
 };
 
 const products = [
-  {
-    id: "retainer-tracker",
-    label: "Codebase",
-    title: "HowlerAI Retainer Tracker",
-    blurb:
-      "Dark-mode React Native/Expo codebase for tracking client retainers, hours, and effective rates without another SaaS.",
-    href: "https://howler4388.gumroad.com/l/retainer-tracker",
-    cta: "View on Gumroad",
-  },
   {
     id: "ai-prompt-pack",
     label: "Prompt Pack",
@@ -36,19 +27,19 @@ const products = [
   },
   {
     id: "freelancer-command-center",
-    label: "Notion Template",
+    label: "Template",
     title: "Freelancer Command Center",
     blurb:
-      "All-in-one Notion system to track clients, projects, invoices, and income so your freelance business runs like a real operation.",
-    href: "https://befitting-son-2e4.notion.site/Freelancer-Command-Center-3119cdba34e081189139f2577b24e660",
-    cta: "Open Notion Template",
+      "Command center to track clients, projects, invoices, and income so your freelance business runs like a real operation.",
+    href: "https://howler4388.gumroad.com/l/freelancer-command-center",
+    cta: "View on Gumroad",
   },
   {
     id: "real-estate-ops-copilot",
-    label: "Notion Template",
+    label: "Template",
     title: "Real Estate Ops Copilot",
     blurb:
-      "Ops dashboard for real estate: leads, showings, pipeline, and approvals in one Notion workspace.",
+      "Ops dashboard for real estate: leads, showings, pipeline, and approvals in one workspace.",
     href: "https://howler4388.gumroad.com/l/rtwjsz",
     cta: "View on Gumroad",
   },
@@ -81,10 +72,10 @@ export default function Home() {
           </nav>
           <div className="flex items-center gap-3">
             <Link
-              href="#retainer-tracker"
+              href="/ctrltower"
               className="hidden rounded-full border border-amber-400/40 bg-amber-500/10 px-4 py-2 text-xs font-medium uppercase tracking-[0.16em] text-amber-200 shadow-sm shadow-amber-400/30 hover:bg-amber-500/20 md:inline-flex"
             >
-              Get the Retainer Tracker
+              View Control Tower
             </Link>
           </div>
         </div>
@@ -105,7 +96,7 @@ export default function Home() {
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
-                href="#retainer-tracker"
+                href="#products"
                 className="rounded-full bg-amber-400 px-5 py-2.5 text-sm font-semibold text-black shadow-lg shadow-amber-400/40 transition hover:bg-amber-300"
               >
                 {sections.hero.primaryCta}
@@ -124,36 +115,29 @@ export default function Home() {
 
           <div className="rounded-2xl border border-zinc-800/80 bg-zinc-950/60 p-5 shadow-[0_0_40px_rgba(250,204,21,0.15)]">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-amber-300/80">
-              TODAY&apos;S TOOL
+              CONTROL TOWER
             </p>
-            <h2
-              id="retainer-tracker"
-              className="mt-3 text-lg font-semibold text-zinc-50"
-            >
-              HowlerAI Retainer Tracker
+            <h2 className="mt-3 text-lg font-semibold text-zinc-50">
+              HowlerAI Ops Control Tower
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-zinc-300">
-              Hours, caps, and effective rates—no spreadsheets. See where
-              you&apos;re over-servicing and which clients quietly eat your
-              capacity.
+              The local ops layer that ties tasks, products, and signals into one view.
+              See what&apos;s Active, what&apos;s blocked, and what&apos;s shipping next.
             </p>
             <ul className="mt-4 space-y-2 text-sm text-zinc-300">
-              <li>• Per-client monthly hours and caps</li>
-              <li>• Billable vs non-billable split</li>
-              <li>• Effective hourly rate per client</li>
-              <li>• Dark, focused UI tuned for operators</li>
+              <li>• Active, Backlog, and Done lanes in one place</li>
+              <li>• Products and experiments tracked alongside work</li>
+              <li>• Local-first JSON/Markdown under the hood</li>
             </ul>
             <div className="mt-5 flex flex-wrap gap-3">
-              <a
-                href="https://howler4388.gumroad.com/l/retainer-tracker"
-                target="_blank"
-                rel="noreferrer"
+              <Link
+                href="/ctrltower"
                 className="rounded-full bg-amber-400 px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-black shadow shadow-amber-400/40 hover:bg-amber-300"
               >
-                View on Gumroad
-              </a>
+                View the Control Tower
+              </Link>
               <p className="text-xs text-zinc-500">
-                Local-first today. Hosted version coming.
+                Built for operators. Public snapshot; private brain underneath.
               </p>
             </div>
           </div>
@@ -171,48 +155,7 @@ export default function Home() {
             {sections.productsIntro.body}
           </p>
 
-          <div className="mt-4 grid gap-4 md:grid-cols-3">
-            <div className="rounded-xl border border-zinc-800 bg-zinc-950/40 p-4">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-amber-300">
-                TODAY
-              </p>
-              <h3 className="mt-2 text-sm font-semibold text-zinc-50">
-                Retainer Tracker
-              </h3>
-              <p className="mt-2 text-xs leading-relaxed text-zinc-400">
-                Keep retainers profitable by seeing hours, caps, and effective
-                rates at a glance.
-              </p>
-            </div>
-
-            <div className="rounded-xl border border-zinc-800 bg-zinc-950/40 p-4">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
-                UNDER THE HOOD
-              </p>
-              <h3 className="mt-2 text-sm font-semibold text-zinc-50">
-                Jarvis Ops Control Tower
-              </h3>
-              <p className="mt-2 text-xs leading-relaxed text-zinc-400">
-                The local ops layer: tasks, metrics, and decisions in one place.
-                Coordinates your tools without adding another SaaS dependency.
-              </p>
-            </div>
-
-            <div className="rounded-xl border border-zinc-800 bg-zinc-950/40 p-4">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-zinc-500">
-                NEXT
-              </p>
-              <h3 className="mt-2 text-sm font-semibold text-zinc-50">
-                Future tools
-              </h3>
-              <p className="mt-2 text-xs leading-relaxed text-zinc-400">
-                Utilities that plug into the same control tower: agency ops,
-                finance, and a few toys.
-              </p>
-            </div>
-          </div>
-
-          {/* Live products shelf (Gumroad + Notion) */}
+          {/* Live products shelf (Gumroad) */}
           <div className="mt-8 rounded-xl border border-zinc-800 bg-zinc-950/40 p-4 md:p-5">
             <div className="flex flex-col justify-between gap-3 md:flex-row md:items-baseline">
               <div>
@@ -272,9 +215,8 @@ export default function Home() {
               Retainers need visibility. Yours probably don&apos;t have it.
             </h3>
             <p className="mt-3 text-sm text-zinc-300">
-              Scope creep and over-servicing hide in people&apos;s heads. The
-              Retainer Tracker makes the numbers visible so you can have calmer,
-              factual conversations instead of guessing.
+              Scope creep and over-servicing hide in people&apos;s heads. Making the
+              numbers visible lets you have calmer, factual conversations instead of guessing.
             </p>
           </div>
           <ul className="space-y-3 text-sm text-zinc-300">
